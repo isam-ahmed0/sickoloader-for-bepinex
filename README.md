@@ -1,6 +1,6 @@
 # SickoLoader for BepInEx
 
-##SickoMenu is now compatible with BepInEx
+## SickoMenu is now compatible with BepInEx
 
 ### If you use BepInEx and SickoMenu it will crash.
 
@@ -13,11 +13,11 @@
 
 ### Step 1: BepInEx
 
-Download BepInex and extract files(extract here not extract to)to the among us folder
+Download [BepInex](https://github.com/BepInEx/BepInEx/releases) and extract files(extract here not extract to)to the among us folder
 
 ### Step 2: Sickomenu setup
 
-Download and extract SickoMenu and copy just SickoMenu.dll and paste it in among us folder.
+Download and extract [SickoMenu](https://github.com/g0aty/SickoMenu/releases) and copy just SickoMenu.dll and paste it in among us folder.
 
 ### Step 3: Loader
 
