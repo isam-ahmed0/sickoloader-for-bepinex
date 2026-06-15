@@ -4,7 +4,7 @@
 
 ### If you use BepInEx and SickoMenu it will crash.
 
-https://github.com/isam-ahmed0/sickoloader-for-bepinex/blob/main/Screenshot%20(151).png
+[https://github.com/isam-ahmed0/sickoloader-for-bepinex/blob/main/Screenshot%20(151).png](https://github.com/isam-ahmed0/sickoloader-for-bepinex/blob/main/Screenshot%20(151).png?raw=true)
 
 ## Features
 
