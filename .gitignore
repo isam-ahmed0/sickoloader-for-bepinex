@@ -1,0 +1,57 @@
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio
+.vs/
+*.sln.ide/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.DotSettings.user
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## C++ specific
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+
+## C# / .NET
+*.nupkg
+*.exe
+*.dll
+*.pdb
+*.cache
+[Ss]tyle[Cc]op.*
+
+## VS Code
+.vscode/
+
+## CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
