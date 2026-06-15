@@ -27,4 +27,4 @@ Download and extract [SickoMenu](https://github.com/g0aty/SickoMenu/releases) an
 
 ### Step 3: Loader
 
-Download the latest SickoLoader.dll from releases then copy/cut it to AmongUs/BepInEx/plugins folder.
+Download the latest SickoLoader.dll from releases then copy/cut it to ./AmongUs/BepInEx/plugins folder.
