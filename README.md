@@ -6,7 +6,7 @@
 
 ## Features
 
-### You can use it with other BepInEx based Mod menus/plugins
+### You can use it with other BepInEx based Mods, menus, plugins and others like hydra
 ### No crash
 
 ## Setup
@@ -17,7 +17,8 @@ Download [BepInex](https://github.com/BepInEx/BepInEx/releases) and extract file
 
 ### Step 2: Sickomenu setup
 
-Download and extract [SickoMenu](https://github.com/g0aty/SickoMenu/releases) and copy just SickoMenu.dll and paste it in among us folder.
+Download and extract [SickoMenu](https://github.com/g0aty/SickoMenu/releases) and copy just SickoMenu.dll **⚠ Dont copy or add version.dll** and paste it in among us folder.
+**⚠ Dont copy or add version.dll in the among us folder**
 
 ### Step 3: Loader
 
