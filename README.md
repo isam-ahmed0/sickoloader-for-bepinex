@@ -4,6 +4,8 @@
 
 ### If you use BepInEx and SickoMenu it will crash.
 
+https://github.com/isam-ahmed0/sickoloader-for-bepinex/blob/main/Screenshot%20(151).png
+
 ## Features
 
 ### You can use it with other BepInEx based Mods, menus, plugins and others like hydra
