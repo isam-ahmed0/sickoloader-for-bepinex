@@ -9,7 +9,11 @@
 ### You can use it with other BepInEx based Mods, menus, plugins and others like hydra
 ### No crash
 
-## Setup
+## Setup Method 1
+
+Download [sfb-full.zip](https://github.com/isam-ahmed0/sickoloader-for-bepinex/releases/tag/Latest), then copy it to your among us folder and extract here. Then run!
+
+## Setup Method 2
 
 ### Step 1: BepInEx
 
