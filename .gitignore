@@ -55,3 +55,16 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+
+## Root-level build files (only SickoLoader/ is tracked)
+/dllmain.cpp
+/il2cpp-appdata.h
+/il2cpp-helpers.cpp
+/il2cpp-helpers.h
+/il2cpp-init.cpp
+/il2cpp-init.h
+/pch-il2cpp.cpp
+/pch-il2cpp.h
+/version.cpp
+/version.def
+/version.h
