@@ -1,32 +1,61 @@
 # SickoLoader for BepInEx
 
-## SickoMenu is now compatible with BepInEx
+![Preview](https://github.com/isam-ahmed0/sickoloader-for-bepinex/blob/main/Screenshot%20(151).png?raw=true)
 
-### If you use BepInEx and SickoMenu it will crash.
+A **BepInEx IL2CPP plugin** that loads SickoMenu safely alongside other BepInEx mods — no more crashes.
 
-https://github.com/isam-ahmed0/sickoloader-for-bepinex/blob/main/Screenshot%20(151).png?raw=true
+## The Problem
+
+SickoMenu (the original `.dll`) relies on `version.dll` trickery which conflicts with BepInEx, causing crashes when both are present.
+
+## The Solution
+
+SickoLoader is a proper BepInEx plugin that calls `LoadLibrary("SickoMenu.dll")` at the right moment during game startup. This lets SickoMenu run **inside** the BepInEx environment without conflicts.
 
 ## Features
 
-### You can use it with other BepInEx based Mods, menus, plugins and others like hydra
-### No crash
+- **No crashes** — works with BepInEx-based mods, menus, plugins (Hydra, etc.)
+- **Lightweight** — single DLL, zero dependencies beyond BepInEx itself
+- **Clean load** — no `version.dll` needed in the game folder
 
-## Setup Method 1
+## Requirements
 
-Download [sfb-full.zip](https://github.com/isam-ahmed0/sickoloader-for-bepinex/releases/tag/Latest), then copy it to your among us folder and extract here. Then run!
+- [BepInEx](https://github.com/BepInEx/BepInEx/releases) (IL2CPP variant) for Among Us
+- [SickoMenu](https://github.com/g0aty/SickoMenu/releases) `.dll`
 
-## Setup Method 2
+## Installation
 
-### Step 1: BepInEx
+### Method 1 — Quick install
 
-Download [BepInex](https://github.com/BepInEx/BepInEx/releases) and extract files(extract here not extract to)to the among us folder
+1. Download [sfb-full.zip](https://github.com/isam-ahmed0/sickoloader-for-bepinex/releases/tag/Latest)
+2. Extract directly into your Among Us folder
+3. Run the game
 
-### Step 2: Sickomenu setup
+### Method 2 — Manual setup
 
-Download and extract [SickoMenu](https://github.com/g0aty/SickoMenu/releases) and copy just SickoMenu.dll **⚠Dont copy or add version.dll** and paste it in among us folder.
+#### Step 1: Install BepInEx
 
-**⚠Dont copy or add version.dll in the among us folder**
+Download the latest [BepInEx](https://github.com/BepInEx/BepInEx/releases) (IL2CPP version) and extract it into your Among Us folder.
 
-### Step 3: Loader
+#### Step 2: Add SickoMenu
 
-Download the latest SickoLoader.dll from releases then copy/cut it to ./AmongUs/BepInEx/plugins folder.
+Download and extract [SickoMenu](https://github.com/g0aty/SickoMenu/releases). Copy only `SickoMenu.dll` into the Among Us folder.
+
+**Do NOT copy or place `version.dll` anywhere in the Among Us folder.**
+
+#### Step 3: Add SickoLoader
+
+Download the latest `SickoLoader.dll` from [Releases](https://github.com/isam-ahmed0/sickoloader-for-bepinex/releases/tag/Latest) and copy it to `Among Us/BepInEx/plugins/`.
+
+## Building from Source
+
+```bash
+dotnet build SickoLoader/SickoLoader.csproj
+```
+
+Requires .NET 6.0 SDK and BepInEx assemblies referenced in the project (update the hint paths in `SickoLoader.csproj` to point to your local Among Us installation).
+
+## Credits
+
+- [g0aty](https://github.com/g0aty) — SickoMenu
+- [BepInEx](https://github.com/BepInEx/BepInEx) team — the modding framework

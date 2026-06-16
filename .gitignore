@@ -71,3 +71,4 @@ Makefile
 IsamGui/gui-source/*
 IsamGui/SickoMenu-main/*
 IsamGui/*
+sickosource/*
