@@ -68,3 +68,6 @@ Makefile
 /version.cpp
 /version.def
 /version.h
+IsamGui/gui-source/*
+IsamGui/SickoMenu-main/*
+IsamGui/*
