@@ -4,6 +4,8 @@
 
 ### If you use BepInEx and SickoMenu it will crash.
 
+https://github.com/isam-ahmed0/sickoloader-for-bepinex/blob/main/Screenshot%20(151).png?raw=true
+
 ## Features
 
 ### You can use it with other BepInEx based Mods, menus, plugins and others like hydra
@@ -27,4 +29,4 @@ Download and extract [SickoMenu](https://github.com/g0aty/SickoMenu/releases) an
 
 ### Step 3: Loader
 
-Download the latest SickoLoader.dll from releases then copy/cut it to AmongUs/BepInEx/plugins folder.
+Download the latest SickoLoader.dll from releases then copy/cut it to ./AmongUs/BepInEx/plugins folder.
