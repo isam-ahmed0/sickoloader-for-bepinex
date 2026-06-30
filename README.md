@@ -18,20 +18,22 @@ SickoLoader is a proper BepInEx plugin that calls `LoadLibrary("SickoMenu.dll")`
 - **Lightweight** — single DLL, zero dependencies beyond BepInEx itself
 - **Clean load** — no `version.dll` needed in the game folder
 
-## Requirements
-
-- [BepInEx](https://github.com/BepInEx/BepInEx/releases) (IL2CPP variant) for Among Us
-- [SickoMenu](https://github.com/g0aty/SickoMenu/releases) `.dll`
-
 ## Installation
 
-### Method 1 — Quick install
+### Method 1 — Quick install(Recomended
 
+this contains bepinex and sickomenu, configs, hydramenu.
 1. Download [sfb-full.zip](https://github.com/isam-ahmed0/sickoloader-for-bepinex/releases)
 2. Extract directly into your Among Us folder
 3. Run the game
+4. Use Delete key for sickomenu and Insert for hydra.
 
 ### Method 2 — Manual setup
+
+### Requirements
+
+- [BepInEx](https://github.com/BepInEx/BepInEx/releases) (IL2CPP variant) for Among Us
+- [SickoMenu](https://github.com/g0aty/SickoMenu/releases) `.dll`
 
 #### Step 1: Install BepInEx
 
